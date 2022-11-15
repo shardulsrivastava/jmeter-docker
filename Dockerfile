@@ -8,6 +8,7 @@ ENV PATH $JMETER_HOME/bin:$PATH
 RUN apt-get update && apt-get -y install \
     wget \
     zip \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 
