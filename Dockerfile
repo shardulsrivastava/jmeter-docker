@@ -9,6 +9,7 @@ RUN apt-get update && apt-get -y install \
     wget \
     zip \
     curl \
+    bash \
     && rm -rf /var/lib/apt/lists/*
 
 
